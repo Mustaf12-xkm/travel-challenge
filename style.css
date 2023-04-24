@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #ffffff;
+}
+header nav {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+header nav .navlinks ul {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100%;
+  margin-left: 10px;
+}
+header nav .navlinks ul li {
+  margin-right: 15px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* content start here */
+.content {
+  width: 100%;
+  height: 600px;
+  background-image: url("images/Rectangle\ 1.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  justify-content: space-around;
+  color: white;
+  margin: auto;
+}
+.content .left-content {
+  max-width: 700px;
+}
+.content .left-content h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+}
+.content .left-content p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.content .left-content h3 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 15px 0;
+}
+form input[type="text"] {
+  width: 348px;
+  height: 50px;
+  outline: none;
+  padding: 0 30px;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+}
+
+form input[type="submit"] {
+  width: 164px;
+  height: 50px;
+  background: #fa793c;
+  border-radius: 30px;
+  border: none;
+  border: 2px solid white;
+  color: white;
+  margin-left: 10px;
+  
+}
+form input[type="text"]::placeholder {
+    color: white;
+}
+.content .right-content {
+  width: 440px;
+
+  height: 404px;
+  background-color: white;
+  color: black;
+}
+.content .right-content{
+    padding:  2%;
+}
+.content .right-content h2{
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-transform: uppercase;
+color: #000000;
+
+}
+.content .news{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .news img{
+    margin-left: 10px;
+}
+.content .travel-news .travel-new{
+    margin: 20px 0;
+}
+.content .travel-news .travel-new h3{
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FA793C;
+}
+.content .travel-news .travel-new p{
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+/* discover start here */
+section{
+    padding: 20px 10%;
+}
+.discover .dsicover-boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+   grid-column-gap: 20px;
+}
+.discover .dsicover-boxes .discover-box> img{
+    width: 100%;
+}
+.discover .dsicover-boxes .discover-box .border-purpose{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+    margin-top: -10px;
+}
+.discover .dsicover-boxes .discover-box h3{
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+}
+.discover .dsicover-boxes .discover-box p{
+    
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.discover .dsicover-boxes .discover-box .time{
+    display: flex;
+    align-items: center;
+}
+.discover .dsicover-boxes .discover-box .time>img{
+    margin-right: 10px;
+}
+.discover h2{
+    padding-bottom: 15px;
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+}
+/* photograph section */
+.photography .photograph-box1{
+    background-image: url("images/photograph/Rectangle\ 12large.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.photography .photograph-box2{
+    background-image: url("images/photograph/Rectangle\ 13large.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.photography .photograph-boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 15px;
+    grid-template-rows: min-content;
+    gap: 15px;
+ 
+}
+.photography .photograph-boxes .photograph-box1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    /* height: 400px; */
+}
+.photography .photograph-boxes .photograph-box1 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.photography .photograph-boxes .photograph-box2{
+    grid-column: 1/3;
+    /* height: 400px; */
+    grid-row: 3/5;
+}
+.photography .photograph-boxes .photograph-box-right1{
+    grid-column: 3/-1;
+    grid-row: 1/2;
+    background-color: #fbbebe;
+    /* height: 129px; */
+}
+.photography .photograph-boxes .photograph-box-right2{
+    grid-column: 3/-1;
+    grid-row: 2/3;
+    background-color: #c15151;
+    /* height: 129px; */
+}
+.photography .photograph-boxes .photograph-box-right3{
+    grid-column: 3/-1;
+    grid-row: 3/4;
+    background-color: #000000;
+    /* height: 129px; */
+}
