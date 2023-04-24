@@ -96,10 +96,9 @@ form input[type="submit"] {
   border: 2px solid white;
   color: white;
   margin-left: 10px;
-  
 }
 form input[type="text"]::placeholder {
-    color: white;
+  color: white;
 }
 .content .right-content {
   width: 440px;
@@ -108,224 +107,303 @@ form input[type="text"]::placeholder {
   background-color: white;
   color: black;
 }
-.content .right-content{
-    padding:  2%;
+.content .right-content {
+  padding: 2%;
 }
-.content .right-content h2{
-    font-family: 'Kanit';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 45px;
-text-transform: uppercase;
-color: #000000;
+.content .right-content h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.content .news {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .news img {
+  margin-left: 10px;
+}
+.content .travel-news .travel-new {
+  margin: 20px 0;
+}
+.content .travel-news .travel-new h3 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
 
+  color: #fa793c;
 }
-.content .news{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.content .news img{
-    margin-left: 10px;
-}
-.content .travel-news .travel-new{
-    margin: 20px 0;
-}
-.content .travel-news .travel-new h3{
-    font-family: 'Kanit';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
-
-
-color: #FA793C;
-}
-.content .travel-news .travel-new p{
-    font-family: 'Kanit';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+.content .travel-news .travel-new p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 /* discover start here */
-section{
-    padding: 20px 10%;
+section {
+  padding: 20px 10%;
 }
-.discover .dsicover-boxes{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-   grid-column-gap: 20px;
+.discover .dsicover-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-column-gap: 20px;
 }
-.discover .dsicover-boxes .discover-box> img{
-    width: 100%;
+.discover .dsicover-boxes .discover-box > img {
+  width: 100%;
 }
-.discover .dsicover-boxes .discover-box .border-purpose{
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding: 10px;
-    margin-top: -10px;
+.discover .dsicover-boxes .discover-box .border-purpose {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 10px;
+  margin-top: -10px;
 }
-.discover .dsicover-boxes .discover-box h3{
-    font-family: 'Kanit';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
+.discover .dsicover-boxes .discover-box h3 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.discover .dsicover-boxes .discover-box p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.discover .dsicover-boxes .discover-box .time {
+  display: flex;
+  align-items: center;
+}
+.discover .dsicover-boxes .discover-box .time > img {
+  margin-right: 10px;
+}
+.discover h2 {
+  padding-bottom: 15px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+/* photograph section */
+.photography .photograph-box1 {
+  background-image: url("images/photograph/Rectangle\ 12large.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photography .photograph-boxes .left .photograph-box2,
+.photograph-box1 {
+  display: flex;
+
+  align-items: end;
+  justify-content: center;
+  padding: 20px;
+}
+.photography .photograph-boxes .left h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+.photography .photograph-boxes .left p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.photography .photograph-box2 {
+  background-image: url("images/photograph/Rectangle\ 13large.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photography .photograph-boxes {
+  display: flex;
+
+  /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 15px;
+    grid-template-rows: min-content;
+    gap: 15px; */
+}
+
+.photography .photograph-boxes .photograph-box1 {
+  /* grid-column: 1/3;
+    grid-row: 1/3; */
+  /* height: 400px; */
+  height: 350px;
+  margin-bottom: 60px;
+  margin-right: 20px;
+}
+
+.photography .photograph-boxes .photograph-box2 {
+  /* grid-column: 1/3;
+    /* height: 400px; */
+  /* grid-row: 3/5;  */
+  height: 350px;
+  margin-right: 15px;
+}
+.photography .photograph-boxes .photograph-box-right1 {
+  /* grid-column: 3/-1;
+    grid-row: 1/2; */
+  /* height: 129px; */
+  /* height: 280px; */
+  margin-bottom: 10px;
+}
+.photography .photograph-boxes .right .r > h3 {
+  padding: 10px 20px;
+}
+.photography .photograph-boxes .right .r > p {
+  padding: 10px 20px;
+}
+.photography .photograph-boxes .right .r > .time {
+  padding: 10px 20px;
+}
+.photography .photograph-boxes .right .r .time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.photography .photograph-boxes .right .r .time img {
+  margin-right: 10px;
+}
+
+.photography .photograph-boxes .photograph-box-right2 {
+  /* grid-column: 3/-1;
+    grid-row: 2/3; */
+
+  /* height: 280px; */
+  margin-bottom: 10px;
+}
+.photography .photograph-boxes .photograph-box-right3 {
+  /* grid-column: 3/-1;
+    grid-row: 3/4; */
+  /* background-color: #72f788; */
+  /* height: 280px; */
+  margin-bottom: 10px;
+}
+.photography .photograph-boxes .right .r .border-purpos {
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  padding: 20px;
+  margin-top: -10px;
+}
+
+/* grid photography-cards */
+
+.photography-cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-column-gap: 15px;
+}
+
+.card-left{
+  display: grid;
+  grid-row-gap: 50px;
+ 
+}
+
+.photography-card-left{
+  height: 400px;
+  width: 100%;
+  padding: 15px 10%;
+  color: #ffffff;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+ 
+}
+
+.sub-card{
+  display: grid;
+  grid-row-gap: 10px;
+  margin-bottom: 25px;
 
 }
-.discover .dsicover-boxes .discover-box p{
-    
+
+.sub-card h3{
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+
+
+}
+
+.sub-card p{
+ 
+
 font-family: 'Kanit';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-}
-.discover .dsicover-boxes .discover-box .time{
-    display: flex;
-    align-items: center;
-}
-.discover .dsicover-boxes .discover-box .time>img{
-    margin-right: 10px;
-}
-.discover h2{
-    padding-bottom: 15px;
-    font-family: 'Kanit';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 45px;
-}
-/* photograph section */
-.photography .photograph-box1{
-    background-image: url("images/photograph/Rectangle\ 12large.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-
 
 }
-.photography .photograph-boxes .left .photograph-box2, .photograph-box1{
-  display: flex;
 
-    align-items: end;
-    justify-content: center;
-    padding: 20px;
- 
+
+.photography-card-left:nth-child(1){
+  background-image: url(./images/photograph/Rectangle\ 12large.png);
+  background-size: cover;
+  background-position: center;
 }
-.photography .photograph-boxes .left h2{
-  font-family: 'Kanit';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 45px;
-  
-color: #FFFFFF;
-}
-.photography .photograph-boxes .left p{
-  font-family: 'Kanit';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  
-  color: #FFFFFF;
-}
-.photography .photograph-box2{
-    background-image: url("images/photograph/Rectangle\ 13large.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-   
-
-}
-.photography .photograph-boxes{
-  display: flex;
-
-
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 15px;
-    grid-template-rows: min-content;
-    gap: 15px; */
+.photography-card-left:nth-child(2){
+ background-image: url(./images/photograph/Rectangle\ 13large.png);
+ background-size: cover;
+ background-position: center;
  
 }
 
 
-.photography .photograph-boxes .photograph-box1{
-    /* grid-column: 1/3;
-    grid-row: 1/3; */
-    /* height: 400px; */
-    height: 350px;
-    margin-bottom: 60px;
-    margin-right: 20px;
-    
-   
-}
 
-.photography .photograph-boxes .photograph-box2{
-    /* grid-column: 1/3;
-    /* height: 400px; */
-    /* grid-row: 3/5;  */
-    height: 350px;
-    margin-right: 15px;
-}
-.photography .photograph-boxes .photograph-box-right1{
-    /* grid-column: 3/-1;
-    grid-row: 1/2; */
-    /* height: 129px; */
-    /* height: 280px; */
-    margin-bottom: 10px;
+.photography-card-right{
+  display: grid;
 
-
-}
-.photography .photograph-boxes .right .r > h3{
-  padding: 10px 20px;
-
-}
-.photography .photograph-boxes .right .r > p{
-  padding: 10px 20px;
-
-}
-.photography .photograph-boxes .right .r> .time{
-  padding: 10px 20px;
-
-}
-.photography .photograph-boxes .right .r .time{
-  display: flex;
-flex-direction: row;
-  align-items: center;
+  margin-bottom: 15px;
   
 }
-.photography .photograph-boxes .right .r .time img{
-  margin-right: 10px;
+
+.photography-card-right > * {
+  height: 142px;
 }
 
-.photography .photograph-boxes .photograph-box-right2{
-    /* grid-column: 3/-1;
-    grid-row: 2/3; */
+.photography-card-right img{
+  width: 100%;
+}
+.photography-card-right .sub-card-right{
+  padding: 15px;
+  display: grid;
+  grid-row-gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.774);
+  margin-top: -5px;
+}
 
-    /* height: 280px; */
-    margin-bottom: 10px;
-}
-.photography .photograph-boxes .photograph-box-right3{
-    /* grid-column: 3/-1;
-    grid-row: 3/4; */
-    /* background-color: #72f788; */
-    /* height: 280px; */
-    margin-bottom: 10px;
-}
-.photography .photograph-boxes .right .r  .border-purpos{
-  border-left: 1px solid  #000000;;
-  border-bottom: 1px solid  #000000;
-  border-right:  1px solid  #000000;
-  padding: 20px;
-  margin-top: -10px;
-}
-footer{
+/* footer section style */
+
+footer {
   height: 60px;
   background-color: black;
   width: 100%;
@@ -339,4 +417,60 @@ height: 38px;
 } */
 footer .footer {
   display: flex;
+}
+
+footer .footer img {
+  max-width: 100%;
+}
+
+footer .footer img:nth-child(2) {
+  margin-left: 15px;
+}
+
+
+
+/* media query */
+
+@media only screen and (max-width : 1200px) {
+  .photography-cards {
+  
+    grid-template-columns: 70% 30%;
+ 
+  }
+
+}
+
+@media only screen and (max-width : 836px) {
+
+ .photography-cards{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+
+ .photography-cards .card-right{
+  margin-top: 25px;
+ }
+
+ .card-right{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+grid-column-gap: 15px;
+
+ }
+
+ 
+ .photography-card-right:nth-child(3){
+  display: none;
+ }
+
+ .discover-box:nth-child(3){
+  display: none;
+ }
+ .sub-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
 }
