@@ -156,6 +156,11 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-column-gap: 20px;
 }
+
+.discover .dsicover-boxes > * {
+  margin-top: 25px;
+}
+
 .discover .dsicover-boxes .discover-box > img {
   width: 100%;
 }
